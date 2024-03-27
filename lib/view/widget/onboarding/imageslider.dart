@@ -12,7 +12,7 @@ class ImageSlider extends  GetView<OnBoardingControllerImp>{
     return  PageView.builder(
           controller:controller.pageController,
           onPageChanged: (val){
-           controller.onPageChanged(val) ; 
+            controller.onPageChanged(val) ; 
          },
           itemCount: OnBoardingList.length,
           itemBuilder: (context, index) {

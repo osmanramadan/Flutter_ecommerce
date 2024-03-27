@@ -6,9 +6,9 @@ import 'package:ecoapp/view/widget/onboarding/switchbutton.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class onBoarding extends StatelessWidget {
+class OnBoarding extends StatelessWidget {
 
-  const  onBoarding({super.key});
+  const  OnBoarding({super.key});
   
 
   @override
